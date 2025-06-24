@@ -6,7 +6,7 @@ const Layout = ({children})=> {
   return (
     <div>
       <Navbar />
-       <main className='pt-6 bg-slate-700'>
+       <main className='p-10 m-6 bg-slate-100'>
         {children}
        </main>
       <Footer />
